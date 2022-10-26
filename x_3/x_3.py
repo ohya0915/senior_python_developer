@@ -15,8 +15,6 @@ class CsvHanlder():
         '''
         隨機寫入 500 筆客戶資料至 /ilovecoffee/customers.csv
         '''
-        # if not os.path.exists('./ilovecoffee/customers.csv')
-
         with open('./ilovecoffee/customers.csv', 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
 
